@@ -117,7 +117,7 @@
 #ifndef XMLToken_h
 #define XMLToken_h
 
-#include <liblx/xml/XMLExtern.h>
+#include <liblx/xml/common/extern.h>
 #include <liblx/xml/XMLAttributes.h>
 /** @cond doxygenLibsbmlInternal */
 #include <liblx/xml/XMLNamespaces.h>

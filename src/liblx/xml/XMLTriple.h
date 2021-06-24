@@ -75,7 +75,7 @@
 #ifndef XMLTriple_h
 #define XMLTriple_h
 
-#include <liblx/xml/XMLExtern.h>
+#include <liblx/xml/common/extern.h>
 #include <liblx/xml/common/liblxfwd.h>
 
 

@@ -82,7 +82,7 @@
 #ifndef XMLErrorLog_h
 #define XMLErrorLog_h
 
-#include <liblx/xml/XMLExtern.h>
+#include <liblx/xml/common/extern.h>
 #include <liblx/xml/XMLError.h>
 #include <liblx/xml/common/liblxfwd.h>
 

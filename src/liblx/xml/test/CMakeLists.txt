@@ -29,7 +29,7 @@
 ## and also available online as http://sbml.org/software/libsbml/license.html
 ## ------------------------------------------------------------------------ -->
 
-include(${LIBSBML_ROOT_SOURCE_DIR}/common.cmake)
+include(${LIBLX_ROOT_SOURCE_DIR}/common.cmake)
 
 file(GLOB C_FILES ${CMAKE_CURRENT_SOURCE_DIR}/*.c)
 
@@ -42,8 +42,8 @@ file(GLOB H_FILES ${CMAKE_CURRENT_SOURCE_DIR}/*.h )
 
 set(TEST_FILES ${CPP_FILES} ${C_FILES} ${H_FILES})
 
-include_directories(${LIBSBML_ROOT_SOURCE_DIR}/include/sbml)
-include_directories(BEFORE ${LIBSBML_ROOT_BINARY_DIR}/src)
+include_directories(${LIBLX_ROOT_SOURCE_DIR}/include/sbml)
+include_directories(BEFORE ${LIBLX_ROOT_BINARY_DIR}/src)
 
 if (EXTRA_INCLUDE_DIRS) 
  include_directories(${EXTRA_INCLUDE_DIRS})
@@ -51,5 +51,5 @@ endif(EXTRA_INCLUDE_DIRS)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/..)
 include_directories(${LIBCHECK_INCLUDE_DIR})
 add_executable(test_sbml_xml ${TEST_FILES})
-target_link_libraries(test_sbml_xml ${LIBSBML_LIBRARY}-static ${LIBCHECK_LIBRARY})
+target_link_libraries(test_sbml_xml ${LIBLX_LIBRARY}-static ${LIBCHECK_LIBRARY})
 add_test(test_sbml_xml_run ${CMAKE_CURRENT_BINARY_DIR}/test_sbml_xml )

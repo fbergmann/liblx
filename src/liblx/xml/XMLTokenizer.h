@@ -49,7 +49,7 @@
 
 #include <deque>
 
-#include <liblx/xml/XMLExtern.h>
+#include <liblx/xml/common/extern.h>
 #include <liblx/xml/XMLHandler.h>
 
 LIBLX_CPP_NAMESPACE_BEGIN

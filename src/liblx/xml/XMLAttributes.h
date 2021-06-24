@@ -227,7 +227,7 @@ foo:myattribute="7"
 #ifndef XMLAttributes_h
 #define XMLAttributes_h
 
-#include <liblx/xml/XMLExtern.h>
+#include <liblx/xml/common/extern.h>
 #include <liblx/xml/common/liblxfwd.h>
 
 

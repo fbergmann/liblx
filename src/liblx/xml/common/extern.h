@@ -41,7 +41,7 @@
 
 #if ( defined(WIN32) && !defined(CYGWIN) && !defined(__MINGW32__))
 
-#if ( ! defined LIBSBML_STATIC )
+#if ( ! defined LIBLX_STATIC )
 /**
  * The following ifdef block is the standard way of creating macros which
  * make exporting from a DLL simpler. All files within this DLL are
@@ -53,7 +53,7 @@
  *
  * (From Andrew Finney's sbwdefs.h, with "SBW" replaced by "LIBSBML" :)
  */
-#if defined(LIBSBXML_EXPORTS)
+#if defined(LIBLX_EXPORTS)
 #  define LIBLX_EXTERN __declspec(dllexport)
 #else
 #  define LIBLX_EXTERN __declspec(dllimport)
@@ -61,7 +61,7 @@
 
 #else
 #  define LIBLX_EXTERN
-#endif  /* LIBSBML_STATIC */
+#endif  /* LIBLX_STATIC */
 
 /**
  * Disable MSVC++ warning C4800: 'const int' : forcing value to bool 'true'

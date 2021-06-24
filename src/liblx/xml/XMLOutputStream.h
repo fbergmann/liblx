@@ -232,7 +232,7 @@ on yyyy-MM-dd HH:mm with libSBML version <libsbml version>. -->
 #include <time.h>
 #include <liblx/xml/common/liblx-version.h>
 
-#include <liblx/xml/XMLExtern.h>
+#include <liblx/xml/common/extern.h>
 
 #include <liblx/xml/sbmlMemoryStubs.h>
 

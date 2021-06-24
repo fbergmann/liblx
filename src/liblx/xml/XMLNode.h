@@ -151,7 +151,7 @@ else:
 #ifndef XMLNode_h
 #define XMLNode_h
 
-#include <liblx/xml/XMLExtern.h>
+#include <liblx/xml/common/extern.h>
 #include <liblx/xml/XMLToken.h>
 #include <liblx/xml/common/liblxfwd.h>
 
